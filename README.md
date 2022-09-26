@@ -1,5 +1,4 @@
 # springcloud-alibaba-harry
-分布式架构
 neoderm-common：公共模块；  
 neoderm-gratus：业务模块；  
 neoderm-gateway：网关模块；  

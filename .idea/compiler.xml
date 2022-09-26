@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="neoderm-gratus" />
+        <module name="neoderm-common" />
+        <module name="sentinel-dashboard" />
+        <module name="neooderm-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="neoderm" target="8" />
+      <module name="neoderm-client" target="8" />
+      <module name="neoderm-common" target="8" />
+      <module name="neoderm-gratus" target="8" />
+      <module name="neooderm-gateway" target="8" />
+      <module name="sentinel-dashboard" target="8" />
+      <module name="springcloud" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

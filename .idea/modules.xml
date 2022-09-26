@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/neoderm.iml" filepath="$PROJECT_DIR$/neoderm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/neoderm-common/neoderm-common.iml" filepath="$PROJECT_DIR$/neoderm-common/neoderm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/neoderm-gratus/neoderm-gratus.iml" filepath="$PROJECT_DIR$/neoderm-gratus/neoderm-gratus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/neooderm-gateway/neooderm-gateway.iml" filepath="$PROJECT_DIR$/neooderm-gateway/neooderm-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" filepath="$PROJECT_DIR$/sentinel-dashboard/sentinel-dashboard.iml" />
+    </modules>
+  </component>
+</project>

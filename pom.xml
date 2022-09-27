@@ -14,6 +14,7 @@
         <module>neoderm-common</module>
         <module>neooderm-gateway</module>
         <module>sentinel-dashboard</module>
+        <module>xxl-job-admin</module>
     </modules>
 
     <properties>
@@ -39,7 +40,7 @@
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <commons-pools.version>2.7.0</commons-pools.version>
         <fastjson.version>1.2.70</fastjson.version>
-        <xxl-job.version>2.2.0</xxl-job.version>
+        <xxl-job.version>2.3.1</xxl-job.version>
         <knife4j.version>2.0.4</knife4j.version>
     </properties>
 

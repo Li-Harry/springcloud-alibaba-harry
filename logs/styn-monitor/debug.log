@@ -1,0 +1,603 @@
+2022-10-09 19:58:39,599 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 56 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-10-09 19:58:39,726 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 25 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-10-09 19:58:39,757 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 22 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-10-09 19:58:39,969 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 205 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 19:58:39,982 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 12 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-10-09 19:58:40,010 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 24 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-10-09 19:58:40,031 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 18 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-10-09 19:58:40,237 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 203 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 19:58:55,106 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server] & group[DEFAULT_GROUP]
+2022-10-09 19:58:55,432 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server.yaml] & group[DEFAULT_GROUP]
+2022-10-09 19:58:55,762 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server-dev.yaml] & group[DEFAULT_GROUP]
+2022-10-09 19:58:55,764 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-admin-server-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application.yaml,DEFAULT_GROUP'}]
+2022-10-09 19:58:55,872 [main] INFO  [com.neoderm.monitor.AdminServerApplication] SpringApplication.java:652 - The following profiles are active: dev
+2022-10-09 19:58:57,923 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-10-09 19:58:58,126 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=ff44db5a-79af-385f-984c-01920f9ba72c
+2022-10-09 19:58:58,171 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 19:58:58,174 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 19:58:58,177 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 19:58:58,636 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8005 (http)
+2022-10-09 19:58:58,650 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8005"]
+2022-10-09 19:58:58,654 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-10-09 19:58:58,654 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-09 19:58:58,973 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-10-09 19:58:58,974 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3060 ms
+2022-10-09 19:58:59,451 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 19:58:59,452 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 19:58:59,460 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 19:58:59,460 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 19:58:59,658 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-09 19:58:59,894 [main] WARN  [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] ThymeleafAutoConfiguration.java:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 19:59:06,062 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 19:59:06,071 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 19:59:11,923 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 19:59:28,719 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 19:59:29,382 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7378c4a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e278e25, org.springframework.security.web.header.HeaderWriterFilter@1479ed5a, org.springframework.security.web.authentication.logout.LogoutFilter@c29b0dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59929ac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@64dcf763, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ab7f649, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4727e5fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6694fb1b, org.springframework.security.web.session.SessionManagementFilter@3d2eb7fa, org.springframework.security.web.access.ExceptionTranslationFilter@759f45f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76104df5]
+2022-10-09 19:59:29,512 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-10-09 19:59:30,022 [main] ERROR [com.alibaba.cloud.nacos.discovery.NacosWatch] NacosWatch.java:138 - namingService subscribe failed, properties:NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='e9a93485-78b2-472d-9106-3970d2442b9a', watchDelay=30000, logName='', service='admin-server', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.23.1', networkInterface='', port=-1, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:227)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:212)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:393)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:134)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 20 common frames omitted
+2022-10-09 19:59:30,027 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8005"]
+2022-10-09 19:59:30,079 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8005 (http) with context path ''
+2022-10-09 19:59:30,365 [Nacos-Watch-Task-Scheduler-1] ERROR [c.a.cloud.nacos.discovery.NacosDiscoveryClient] NacosDiscoveryClient.java:70 - get service name from nacos server fail,
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.getServiceList(NamingGrpcClientProxy.java:202)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.getServiceList(NamingClientProxyDelegate.java:137)
+	at com.alibaba.nacos.client.naming.NacosNamingService.getServicesOfServer(NacosNamingService.java:440)
+	at com.alibaba.nacos.client.naming.NacosNamingService.getServicesOfServer(NacosNamingService.java:428)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getServices(NacosServiceDiscovery.java:69)
+	at com.alibaba.cloud.nacos.discovery.NacosDiscoveryClient.getServices(NacosDiscoveryClient.java:67)
+	at org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClient.getServices(CompositeDiscoveryClient.java:67)
+	at de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener.discover(InstanceDiscoveryListener.java:126)
+	at de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener.discoverIfNeeded(InstanceDiscoveryListener.java:120)
+	at de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener.onApplicationEvent(InstanceDiscoveryListener.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:305)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.nacosServicesWatch(NacosWatch.java:200)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 32 common frames omitted
+2022-10-09 19:59:35,605 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 19:59:35,933 [main] ERROR [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:80 - nacos registry, admin-server register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='e9a93485-78b2-472d-9106-3970d2442b9a', watchDelay=30000, logName='', service='admin-server', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.23.1', networkInterface='', port=8005, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:129)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:115)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:95)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:145)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 32 common frames omitted
+2022-10-09 19:59:35,934 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2022-10-09 19:59:36,313 [main] WARN  [o.s.beans.factory.support.DisposableBeanAdapter] DisposableBeanAdapter.java:290 - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-10-09 19:59:36,315 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 19:59:36,663 [main] ERROR [com.alibaba.cloud.nacos.discovery.NacosWatch] NacosWatch.java:181 - namingService unsubscribe failed, properties:NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='e9a93485-78b2-472d-9106-3970d2442b9a', watchDelay=30000, logName='', service='admin-server', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.23.1', networkInterface='', port=8005, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doUnsubscribe(NamingGrpcClientProxy.java:249)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.unsubscribe(NamingGrpcClientProxy.java:235)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.unsubscribe(NamingClientProxyDelegate.java:156)
+	at com.alibaba.nacos.client.naming.NacosNamingService.unsubscribe(NacosNamingService.java:417)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.stop(NacosWatch.java:177)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.destroy(NacosWatch.java:207)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 22 common frames omitted
+2022-10-09 19:59:36,682 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:12:01,517 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 106 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-10-09 20:12:01,603 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 32 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-10-09 20:12:01,639 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 27 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-10-09 20:12:01,931 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 287 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:12:01,946 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 12 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-10-09 20:12:01,970 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 21 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-10-09 20:12:01,990 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 13 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-10-09 20:12:02,312 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 311 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:12:17,440 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server] & group[DEFAULT_GROUP]
+2022-10-09 20:12:17,770 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server.yaml] & group[DEFAULT_GROUP]
+2022-10-09 20:12:18,096 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server-dev.yaml] & group[DEFAULT_GROUP]
+2022-10-09 20:12:18,098 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-admin-server-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-application.yaml,DEFAULT_GROUP'}]
+2022-10-09 20:12:18,180 [main] INFO  [com.neoderm.monitor.AdminServerApplication] SpringApplication.java:652 - The following profiles are active: dev
+2022-10-09 20:12:20,071 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-10-09 20:12:20,354 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=ff44db5a-79af-385f-984c-01920f9ba72c
+2022-10-09 20:12:20,386 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:12:20,389 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:12:20,395 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:12:20,919 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8005 (http)
+2022-10-09 20:12:20,948 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:12:20,949 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-10-09 20:12:20,949 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-09 20:12:21,217 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-10-09 20:12:21,217 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 3003 ms
+2022-10-09 20:12:21,649 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:12:21,649 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:12:21,654 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:12:21,654 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:12:21,887 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:12:22,119 [main] WARN  [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] ThymeleafAutoConfiguration.java:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 20:12:27,314 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:12:27,331 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:12:32,255 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:12:50,063 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:12:50,642 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1835b783, org.springframework.security.web.context.SecurityContextPersistenceFilter@1736273c, org.springframework.security.web.header.HeaderWriterFilter@2aaa89c2, org.springframework.security.web.authentication.logout.LogoutFilter@bb21063, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ef04613, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e45fbd0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36eb8e07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@146db8a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@456b140f, org.springframework.security.web.session.SessionManagementFilter@217fd3c, org.springframework.security.web.access.ExceptionTranslationFilter@4203529f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1eb7ec59]
+2022-10-09 20:12:50,731 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-10-09 20:12:51,192 [main] ERROR [com.alibaba.cloud.nacos.discovery.NacosWatch] NacosWatch.java:138 - namingService subscribe failed, properties:NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='e9a93485-78b2-472d-9106-3970d2442b9a', watchDelay=30000, logName='', service='admin-server', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.23.1', networkInterface='', port=-1, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doSubscribe(NamingGrpcClientProxy.java:227)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.subscribe(NamingGrpcClientProxy.java:212)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.subscribe(NamingClientProxyDelegate.java:147)
+	at com.alibaba.nacos.client.naming.NacosNamingService.subscribe(NacosNamingService.java:393)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.start(NacosWatch.java:134)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 20 common frames omitted
+2022-10-09 20:12:51,196 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:12:51,223 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8005 (http) with context path ''
+2022-10-09 20:12:51,520 [Nacos-Watch-Task-Scheduler-1] ERROR [c.a.cloud.nacos.discovery.NacosDiscoveryClient] NacosDiscoveryClient.java:70 - get service name from nacos server fail,
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.getServiceList(NamingGrpcClientProxy.java:202)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.getServiceList(NamingClientProxyDelegate.java:137)
+	at com.alibaba.nacos.client.naming.NacosNamingService.getServicesOfServer(NacosNamingService.java:440)
+	at com.alibaba.nacos.client.naming.NacosNamingService.getServicesOfServer(NacosNamingService.java:428)
+	at com.alibaba.cloud.nacos.discovery.NacosServiceDiscovery.getServices(NacosServiceDiscovery.java:69)
+	at com.alibaba.cloud.nacos.discovery.NacosDiscoveryClient.getServices(NacosDiscoveryClient.java:67)
+	at org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClient.getServices(CompositeDiscoveryClient.java:67)
+	at de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener.discover(InstanceDiscoveryListener.java:126)
+	at de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener.discoverIfNeeded(InstanceDiscoveryListener.java:120)
+	at de.codecentric.boot.admin.server.cloud.discovery.InstanceDiscoveryListener.onApplicationEvent(InstanceDiscoveryListener.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:305)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.nacosServicesWatch(NacosWatch.java:200)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 32 common frames omitted
+2022-10-09 20:12:56,469 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:12:56,812 [main] ERROR [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:80 - nacos registry, admin-server register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='e9a93485-78b2-472d-9106-3970d2442b9a', watchDelay=30000, logName='', service='admin-server', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.23.1', networkInterface='', port=8005, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}},
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:129)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:115)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:95)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:145)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 32 common frames omitted
+2022-10-09 20:12:56,814 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2022-10-09 20:12:57,168 [main] WARN  [o.s.beans.factory.support.DisposableBeanAdapter] DisposableBeanAdapter.java:290 - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2022-10-09 20:12:57,169 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:12:57,496 [main] ERROR [com.alibaba.cloud.nacos.discovery.NacosWatch] NacosWatch.java:181 - namingService unsubscribe failed, properties:NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='e9a93485-78b2-472d-9106-3970d2442b9a', watchDelay=30000, logName='', service='admin-server', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.23.1', networkInterface='', port=8005, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, failFast=true}
+com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doUnsubscribe(NamingGrpcClientProxy.java:249)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.unsubscribe(NamingGrpcClientProxy.java:235)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.unsubscribe(NamingClientProxyDelegate.java:156)
+	at com.alibaba.nacos.client.naming.NacosNamingService.unsubscribe(NacosNamingService.java:417)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.stop(NacosWatch.java:177)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.destroy(NacosWatch.java:207)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:199)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:SHUTDOWN
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 22 common frames omitted
+2022-10-09 20:12:57,499 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:12:59,544 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Pausing ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:12:59,544 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2022-10-09 20:12:59,550 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Stopping ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:12:59,557 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Destroying ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:12:59,574 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-09 20:12:59,614 [main] ERROR [org.springframework.boot.SpringApplication] SpringApplication.java:834 - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:402)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1247)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1236)
+	at com.neoderm.monitor.AdminServerApplication.main(AdminServerApplication.java:15)
+Caused by: java.lang.reflect.UndeclaredThrowableException: null
+	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:82)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:78)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	... 14 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Request nacos server failed: 
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:279)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.doRegisterService(NamingGrpcClientProxy.java:129)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.registerService(NamingGrpcClientProxy.java:115)
+	at com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate.registerService(NamingClientProxyDelegate.java:95)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:145)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:74)
+	... 27 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,current status:STARTING
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:655)
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:635)
+	at com.alibaba.nacos.client.naming.remote.gprc.NamingGrpcClientProxy.requestToServer(NamingGrpcClientProxy.java:269)
+	... 32 common frames omitted
+2022-10-09 20:24:34,652 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 74 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-10-09 20:24:34,700 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 16 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-10-09 20:24:34,728 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 21 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-10-09 20:24:34,958 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 223 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:24:34,973 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 14 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-10-09 20:24:34,993 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 15 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-10-09 20:24:35,018 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 15 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-10-09 20:24:35,217 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 195 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:24:44,999 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server] & group[DEFAULT_GROUP]
+2022-10-09 20:24:45,017 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server.yaml] & group[DEFAULT_GROUP]
+2022-10-09 20:24:45,029 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server-dev.yaml] & group[DEFAULT_GROUP]
+2022-10-09 20:24:45,030 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-admin-server-dev.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server.yaml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server,DEFAULT_GROUP'}]
+2022-10-09 20:24:45,036 [main] INFO  [com.neoderm.monitor.AdminServerApplication] SpringApplication.java:652 - The following profiles are active: dev
+2022-10-09 20:24:46,449 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-10-09 20:24:46,635 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=ff44db5a-79af-385f-984c-01920f9ba72c
+2022-10-09 20:24:46,658 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:24:46,660 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:24:46,663 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:24:47,084 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8005 (http)
+2022-10-09 20:24:47,102 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:24:47,103 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-10-09 20:24:47,104 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-09 20:24:47,413 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-10-09 20:24:47,414 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 2354 ms
+2022-10-09 20:24:47,867 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:24:47,867 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:24:47,884 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:24:47,884 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:24:48,093 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:24:48,323 [main] WARN  [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] ThymeleafAutoConfiguration.java:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 20:24:53,289 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:24:53,297 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:24:58,317 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:25:05,755 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:25:06,338 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43719e98, org.springframework.security.web.context.SecurityContextPersistenceFilter@612290d, org.springframework.security.web.header.HeaderWriterFilter@3ac406d4, org.springframework.security.web.authentication.logout.LogoutFilter@69fd99c1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1344f7fe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@186d6033, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f39b534, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ca4f762, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@49353d43, org.springframework.security.web.session.SessionManagementFilter@6ec2d990, org.springframework.security.web.access.ExceptionTranslationFilter@7abcc0da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0778d0]
+2022-10-09 20:25:06,431 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-10-09 20:25:06,644 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:25:06,675 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8005 (http) with context path ''
+2022-10-09 20:25:11,832 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:25:11,856 [main] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:75 - nacos registry, DEFAULT_GROUP admin-server 192.168.23.1:8005 register finished
+2022-10-09 20:25:16,721 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:25:16,737 [main] INFO  [com.neoderm.monitor.AdminServerApplication] StartupInfoLogger.java:61 - Started AdminServerApplication in 54.467 seconds (JVM running for 60.073)
+2022-10-09 20:25:19,819 [http-nio-8005-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-09 20:25:19,820 [http-nio-8005-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-10-09 20:25:19,832 [http-nio-8005-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 12 ms
+2022-10-09 20:43:27,455 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:43:29,538 [SpringContextShutdownHook] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:94 - De-registering from Nacos Server now...
+2022-10-09 20:43:29,541 [SpringContextShutdownHook] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:114 - De-registration finished.
+2022-10-09 20:43:29,888 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:43:48,086 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 50 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-10-09 20:43:48,129 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 17 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-10-09 20:43:48,153 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 20 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-10-09 20:43:48,319 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 160 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:43:48,332 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 12 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-10-09 20:43:48,346 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 11 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-10-09 20:43:48,364 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 14 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-10-09 20:43:48,526 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 159 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:43:56,357 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server] & group[DEFAULT_GROUP]
+2022-10-09 20:43:56,365 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server.properties] & group[DEFAULT_GROUP]
+2022-10-09 20:43:56,371 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server-dev.properties] & group[DEFAULT_GROUP]
+2022-10-09 20:43:56,372 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-admin-server-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server,DEFAULT_GROUP'}]
+2022-10-09 20:43:56,378 [main] INFO  [com.neoderm.monitor.AdminServerApplication] SpringApplication.java:652 - The following profiles are active: dev
+2022-10-09 20:43:57,572 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-10-09 20:43:58,221 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=ff44db5a-79af-385f-984c-01920f9ba72c
+2022-10-09 20:43:58,405 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:43:58,462 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:43:58,495 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:44:00,404 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8005 (http)
+2022-10-09 20:44:00,567 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:44:00,569 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-10-09 20:44:00,569 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-09 20:44:01,036 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-10-09 20:44:01,036 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 4639 ms
+2022-10-09 20:44:01,649 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:44:01,649 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:44:01,658 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:44:01,659 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:44:01,847 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:44:02,051 [main] WARN  [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] ThymeleafAutoConfiguration.java:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 20:44:06,997 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:44:07,004 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:44:11,455 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:44:18,351 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:44:19,124 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@665b441e, org.springframework.security.web.context.SecurityContextPersistenceFilter@81dfdee, org.springframework.security.web.header.HeaderWriterFilter@11ee671f, org.springframework.security.web.authentication.logout.LogoutFilter@5487a8f1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@628bcf2c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@61246109, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b046e64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d2eb7fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ac3d530, org.springframework.security.web.session.SessionManagementFilter@57df09a7, org.springframework.security.web.access.ExceptionTranslationFilter@838e109, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c6aa46c]
+2022-10-09 20:44:19,197 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-10-09 20:44:19,373 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:44:19,404 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8005 (http) with context path ''
+2022-10-09 20:44:21,893 [http-nio-8005-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-09 20:44:21,894 [http-nio-8005-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-10-09 20:44:21,910 [http-nio-8005-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 14 ms
+2022-10-09 20:44:26,700 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:44:26,712 [main] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:75 - nacos registry, DEFAULT_GROUP admin-server 192.168.23.1:8005 register finished
+2022-10-09 20:44:31,125 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:44:31,140 [main] INFO  [com.neoderm.monitor.AdminServerApplication] StartupInfoLogger.java:61 - Started AdminServerApplication in 53.997 seconds (JVM running for 57.547)
+2022-10-09 20:46:45,839 [reactor-http-nio-3] INFO  [d.c.boot.admin.server.services.StatusUpdater] StatusUpdater.java:127 - Couldn't retrieve status for Instance(id=54c43eaede47, version=2, registration=Registration(name=neoderm-gratus, managementUrl=http://192.168.23.1:8002/actuator, healthUrl=http://192.168.23.1:8002/actuator/health, serviceUrl=http://192.168.23.1:8002, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={sentinel={status=UNKNOWN, details={dataSource={degrade-sentinel-nacos-datasource={status=UP}, authority-sentinel-nacos-datasource={status=UP}, flow-sentinel-nacos-datasource={status=UP}, system-sentinel-nacos-datasource={status=UP}, param-sentinel-nacos-datasource={status=UP}}, enabled=true, dashboard={description=the dashboard servers [[Endpoint{protocol=HTTP, host='localhost, port=8080}]] one of them can't be connected, status=UNKNOWN}}}, elasticsearch={status=UP, details={cluster_name=elastic-nodes, status=green, timed_out=false, number_of_nodes=1, number_of_data_nodes=1, active_primary_shards=8, active_shards=8, relocating_shards=0, initializing_shards=0, unassigned_shards=0, delayed_unassigned_shards=0, number_of_pending_tasks=0, number_of_in_flight_fetch=0, task_max_waiting_in_queue_millis=0, active_shards_percent_as_number=100.0}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=1000068870144, free=876460503040, threshold=10485760, exists=true}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[admin-server, neoderm-gratus]}}}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, validationQuery=isValid()}}, redis={status=UP, details={version=6.2.6}}}), statusTimestamp=2022-10-09T12:44:25.449Z, info=Info(values={}), endpoints=Endpoints(endpoints={sentinel=Endpoint(id=sentinel, url=http://192.168.23.1:8002/actuator/sentinel), caches=Endpoint(id=caches, url=http://192.168.23.1:8002/actuator/caches), loggers=Endpoint(id=loggers, url=http://192.168.23.1:8002/actuator/loggers), logfile=Endpoint(id=logfile, url=http://192.168.23.1:8002/actuator/logfile), nacosconfig=Endpoint(id=nacosconfig, url=http://192.168.23.1:8002/actuator/nacosconfig), health=Endpoint(id=health, url=http://192.168.23.1:8002/actuator/health), refresh=Endpoint(id=refresh, url=http://192.168.23.1:8002/actuator/refresh), env=Endpoint(id=env, url=http://192.168.23.1:8002/actuator/env), nacosdiscovery=Endpoint(id=nacosdiscovery, url=http://192.168.23.1:8002/actuator/nacosdiscovery), heapdump=Endpoint(id=heapdump, url=http://192.168.23.1:8002/actuator/heapdump), features=Endpoint(id=features, url=http://192.168.23.1:8002/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://192.168.23.1:8002/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://192.168.23.1:8002/actuator/mappings), archaius=Endpoint(id=archaius, url=http://192.168.23.1:8002/actuator/archaius), beans=Endpoint(id=beans, url=http://192.168.23.1:8002/actuator/beans), configprops=Endpoint(id=configprops, url=http://192.168.23.1:8002/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://192.168.23.1:8002/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://192.168.23.1:8002/actuator/metrics), conditions=Endpoint(id=conditions, url=http://192.168.23.1:8002/actuator/conditions), service-registry=Endpoint(id=service-registry, url=http://192.168.23.1:8002/actuator/service-registry), info=Endpoint(id=info, url=http://192.168.23.1:8002/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.23.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-09 20:46:53,179 [Nacos-Watch-Task-Scheduler-1] INFO  [d.c.b.a.s.c.discovery.InstanceDiscoveryListener] InstanceDiscoveryListener.java:138 - Instance '54c43eaede47' missing in DiscoveryClient services and will be removed.
+2022-10-09 20:47:06,745 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:47:08,854 [SpringContextShutdownHook] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:94 - De-registering from Nacos Server now...
+2022-10-09 20:47:08,859 [SpringContextShutdownHook] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:114 - De-registration finished.
+2022-10-09 20:47:09,195 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:47:29,337 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 55 ms to scan 1 urls, producing 3 keys and 6 values 
+2022-10-09 20:47:29,394 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 25 ms to scan 1 urls, producing 4 keys and 9 values 
+2022-10-09 20:47:29,414 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 14 ms to scan 1 urls, producing 3 keys and 10 values 
+2022-10-09 20:47:29,644 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 223 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:47:29,656 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 11 ms to scan 1 urls, producing 1 keys and 5 values 
+2022-10-09 20:47:29,678 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 18 ms to scan 1 urls, producing 1 keys and 7 values 
+2022-10-09 20:47:29,696 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 13 ms to scan 1 urls, producing 2 keys and 8 values 
+2022-10-09 20:47:29,893 [main] INFO  [org.reflections.Reflections] Reflections.java:232 - Reflections took 193 ms to scan 157 urls, producing 0 keys and 0 values 
+2022-10-09 20:47:39,270 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server] & group[DEFAULT_GROUP]
+2022-10-09 20:47:39,285 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server.properties] & group[DEFAULT_GROUP]
+2022-10-09 20:47:39,292 [main] WARN  [c.a.cloud.nacos.client.NacosPropertySourceBuilder] NacosPropertySourceBuilder.java:87 - Ignore the empty nacos configuration and get it based on dataId[admin-server-dev.properties] & group[DEFAULT_GROUP]
+2022-10-09 20:47:39,294 [main] INFO  [o.s.c.b.c.PropertySourceBootstrapConfiguration] PropertySourceBootstrapConfiguration.java:112 - Located property source: [BootstrapPropertySource {name='bootstrapProperties-admin-server-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-admin-server,DEFAULT_GROUP'}]
+2022-10-09 20:47:39,301 [main] INFO  [com.neoderm.monitor.AdminServerApplication] SpringApplication.java:652 - The following profiles are active: dev
+2022-10-09 20:47:40,835 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-10-09 20:47:41,017 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=ff44db5a-79af-385f-984c-01920f9ba72c
+2022-10-09 20:47:41,048 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:47:41,051 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:47:41,053 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:335 - Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-09 20:47:41,517 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8005 (http)
+2022-10-09 20:47:41,533 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:47:41,534 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-10-09 20:47:41,534 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-10-09 20:47:41,780 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-10-09 20:47:41,780 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:285 - Root WebApplicationContext: initialization completed in 2447 ms
+2022-10-09 20:47:42,247 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:47:42,248 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:47:42,254 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:126 - No URLs will be polled as dynamic configuration sources.
+2022-10-09 20:47:42,255 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:127 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-10-09 20:47:42,465 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-09 20:47:42,701 [main] WARN  [o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration] ThymeleafAutoConfiguration.java:105 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-10-09 20:47:47,648 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:47:47,658 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 20:47:52,950 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:48:00,651 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:48:01,264 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@119f072c, org.springframework.security.web.context.SecurityContextPersistenceFilter@58a7a58d, org.springframework.security.web.header.HeaderWriterFilter@63f2d024, org.springframework.security.web.authentication.logout.LogoutFilter@582c1f8d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5981f2c6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3855b27e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c9975a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@434a8938, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66456506, org.springframework.security.web.session.SessionManagementFilter@405223e4, org.springframework.security.web.access.ExceptionTranslationFilter@43df1377, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37dec463]
+2022-10-09 20:48:01,351 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-10-09 20:48:01,648 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8005"]
+2022-10-09 20:48:01,686 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8005 (http) with context path ''
+2022-10-09 20:48:01,947 [http-nio-8005-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-09 20:48:01,949 [http-nio-8005-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-10-09 20:48:01,962 [http-nio-8005-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 13 ms
+2022-10-09 20:48:06,929 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:48:06,944 [main] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:75 - nacos registry, DEFAULT_GROUP admin-server 192.168.23.1:8005 register finished
+2022-10-09 20:48:12,132 [main] INFO  [org.springframework.cloud.commons.util.InetUtils] InetUtils.java:170 - Cannot determine local hostname
+2022-10-09 20:48:12,146 [main] INFO  [com.neoderm.monitor.AdminServerApplication] StartupInfoLogger.java:61 - Started AdminServerApplication in 54.613 seconds (JVM running for 59.157)
+2022-10-09 21:12:57,786 [reactor-http-nio-8] INFO  [d.c.boot.admin.server.services.StatusUpdater] StatusUpdater.java:127 - Couldn't retrieve status for Instance(id=54c43eaede47, version=2, registration=Registration(name=neoderm-gratus, managementUrl=http://192.168.23.1:8002/actuator, healthUrl=http://192.168.23.1:8002/actuator/health, serviceUrl=http://192.168.23.1:8002, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={sentinel={status=UNKNOWN, details={dataSource={degrade-sentinel-nacos-datasource={status=UP}, authority-sentinel-nacos-datasource={status=UP}, flow-sentinel-nacos-datasource={status=UP}, system-sentinel-nacos-datasource={status=UP}, param-sentinel-nacos-datasource={status=UP}}, enabled=true, dashboard={description=the dashboard servers [[Endpoint{protocol=HTTP, host='localhost, port=8080}]] one of them can't be connected, status=UNKNOWN}}}, elasticsearch={status=UP, details={cluster_name=elastic-nodes, status=green, timed_out=false, number_of_nodes=1, number_of_data_nodes=1, active_primary_shards=8, active_shards=8, relocating_shards=0, initializing_shards=0, unassigned_shards=0, delayed_unassigned_shards=0, number_of_pending_tasks=0, number_of_in_flight_fetch=0, task_max_waiting_in_queue_millis=0, active_shards_percent_as_number=100.0}}, nacosConfig={status=UP}, diskSpace={status=UP, details={total=1000068870144, free=876460388352, threshold=10485760, exists=true}}, ping={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[admin-server, neoderm-gratus]}}}}, refreshScope={status=UP}, nacosDiscovery={status=UP}, db={status=UP, details={database=MySQL, validationQuery=isValid()}}, redis={status=UP, details={version=6.2.6}}}), statusTimestamp=2022-10-09T12:51:04.193Z, info=Info(values={}), endpoints=Endpoints(endpoints={sentinel=Endpoint(id=sentinel, url=http://192.168.23.1:8002/actuator/sentinel), caches=Endpoint(id=caches, url=http://192.168.23.1:8002/actuator/caches), loggers=Endpoint(id=loggers, url=http://192.168.23.1:8002/actuator/loggers), logfile=Endpoint(id=logfile, url=http://192.168.23.1:8002/actuator/logfile), nacosconfig=Endpoint(id=nacosconfig, url=http://192.168.23.1:8002/actuator/nacosconfig), health=Endpoint(id=health, url=http://192.168.23.1:8002/actuator/health), refresh=Endpoint(id=refresh, url=http://192.168.23.1:8002/actuator/refresh), env=Endpoint(id=env, url=http://192.168.23.1:8002/actuator/env), nacosdiscovery=Endpoint(id=nacosdiscovery, url=http://192.168.23.1:8002/actuator/nacosdiscovery), heapdump=Endpoint(id=heapdump, url=http://192.168.23.1:8002/actuator/heapdump), features=Endpoint(id=features, url=http://192.168.23.1:8002/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://192.168.23.1:8002/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://192.168.23.1:8002/actuator/mappings), archaius=Endpoint(id=archaius, url=http://192.168.23.1:8002/actuator/archaius), beans=Endpoint(id=beans, url=http://192.168.23.1:8002/actuator/beans), configprops=Endpoint(id=configprops, url=http://192.168.23.1:8002/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://192.168.23.1:8002/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://192.168.23.1:8002/actuator/metrics), conditions=Endpoint(id=conditions, url=http://192.168.23.1:8002/actuator/conditions), service-registry=Endpoint(id=service-registry, url=http://192.168.23.1:8002/actuator/service-registry), info=Endpoint(id=info, url=http://192.168.23.1:8002/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.23.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-10-09 21:13:02,376 [Nacos-Watch-Task-Scheduler-1] INFO  [d.c.b.a.s.c.discovery.InstanceDiscoveryListener] InstanceDiscoveryListener.java:138 - Instance '54c43eaede47' missing in DiscoveryClient services and will be removed.
+2022-10-09 21:16:36,346 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskScheduler] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2022-10-09 21:16:38,466 [SpringContextShutdownHook] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:94 - De-registering from Nacos Server now...
+2022-10-09 21:16:38,470 [SpringContextShutdownHook] INFO  [c.a.cloud.nacos.registry.NacosServiceRegistry] NacosServiceRegistry.java:114 - De-registration finished.
+2022-10-09 21:16:38,810 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'

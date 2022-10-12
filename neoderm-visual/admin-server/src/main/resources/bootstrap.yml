@@ -1,0 +1,28 @@
+server:
+  port: 8005 # 端口号
+spring:
+  application:
+    name: admin-server
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        group: DEFAULT_GROUP
+        namespace: e9a93485-78b2-472d-9106-3970d2442b9a # 命名空间
+  security:
+    user:
+      name: admin
+      password: 123456
+#代表打开所有的监控点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      # 代表启用单独的url地址来监控 Spring Boot 应用，
+      base-path: /actuator
+  endpoint:
+    health:
+      show-details: ALWAYS
